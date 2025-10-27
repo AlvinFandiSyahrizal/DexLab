@@ -23,7 +23,7 @@ class PokemonModel {
     return PokemonModel(
       id: json['id'],
       name: json['name'],
-      imageUrl: json['imageUrl'], // Ini sudah path local: assets/images/pokemon/X.png
+      imageUrl: json['imageUrl'],
       height: json['height'],
       weight: json['weight'],
       types: json['types'] != null

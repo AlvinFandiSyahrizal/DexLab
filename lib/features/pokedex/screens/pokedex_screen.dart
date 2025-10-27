@@ -24,7 +24,7 @@ class _PokedexScreenState extends State<PokedexScreen> {
 
   Future<void> loadPokemons() async {
     try {
-      // UBAH: Pakai method offline
+
       final data = await api.fetchPokemonListLocal();
       setState(() {
         pokemons = data;

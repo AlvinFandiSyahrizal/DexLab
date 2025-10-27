@@ -18,7 +18,6 @@ class PokemonCard extends StatelessWidget {
               pokemon.imageUrl,
               fit: BoxFit.contain,
               errorBuilder: (context, error, stackTrace) {
-                // Tampilkan placeholder jika gambar gagal load
                 return Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
